@@ -1504,6 +1504,17 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: #5c5e61;
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
@@ -3001,7 +3012,7 @@ h1.page-title + .tag-cloud-list {
   color: #24516e;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: #88a4ba;
   color: #fff;
 }
 #aside-content .sticky_layout:only-child > :first-child {
@@ -3881,7 +3892,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #24516e;
   color: var(--white);
 }
 #pagination .pagination-info {
